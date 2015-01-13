@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.commands_3.6.2.v20130123-162658.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.runtime_3.8.0.v20120912-155025.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.text_3.5.200.v20120523-1310.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.100.1.v4236b.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface_3.8.102.v20130123-162658.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface.text_3.8.2.v20121126-164145.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.workbench_3.104.0.v20130204-164612.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/com.ibm.icu_4.4.2.v20110823.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.forms_3.5.200.v20120705-114351.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="org.eclipse.osgi_3.8.2.v20130124-134944.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.osgi.source_3.8.2.v20130124-134944.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.commands_3.6.2.v20130123-162658.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.commands_3.6.2.v20130123-162658.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.commands.source_3.6.2.v20130123-162658.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common_3.6.100.v20120522-1841.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.common.source_3.6.100.v20120522-1841.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.equinox.registry.source_3.5.200.v20120522-1841.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.runtime_3.8.0.v20120912-155025.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.runtime_3.8.0.v20120912-155025.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.core.runtime.source_3.8.0.v20120912-155025.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.text_3.5.200.v20120523-1310.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.text_3.5.200.v20120523-1310.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.text.source_3.5.200.v20120523-1310.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.swt.win32.win32.x86_64_3.100.1.v4236b.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.100.1.v4236b.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64.source_3.100.1.v4236b.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jface_3.8.102.v20130123-162658.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface_3.8.102.v20130123-162658.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface.source_3.8.102.v20130123-162658.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jface.text_3.8.2.v20121126-164145.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface.text_3.8.2.v20121126-164145.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.jface.text.source_3.8.2.v20121126-164145.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.ui.workbench_3.104.0.v20130204-164612.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.workbench_3.104.0.v20130204-164612.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.workbench.source_3.104.0.v20130204-164612.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.ibm.icu_4.4.2.v20110823.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/com.ibm.icu_4.4.2.v20110823.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/com.ibm.icu.source_4.4.2.v20110823.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.ui.forms_3.5.200.v20120705-114351.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.forms_3.5.200.v20120705-114351.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/eclipse/plugins/org.eclipse.ui.forms.source_3.5.200.v20120705-114351.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
