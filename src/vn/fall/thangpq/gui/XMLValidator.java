@@ -255,16 +255,20 @@ public class XMLValidator extends JFrame {
     public static boolean isOpenTag(String tag) {
         Pattern openTagPattern = Pattern.compile("<(.*?)>");//match any char zero or more times
         Matcher m = openTagPattern.matcher(tag);
-        if (m.find() && !tag.startsWith("</") && !tag.endsWith("/>")) {
+
+        if (m.matches() && !tag.startsWith("</") && !tag.endsWith("/>")){
+            return true;
+        } return false;
+        /*if (m.find() && !tag.startsWith("</") && !tag.endsWith("/>")) {
             return true;
         }
-        return false;
+        return false;*/
     }
 
     public static boolean isEndTag(String tag) {
         Pattern endTagPattern = Pattern.compile("</(.*?)>");
         Matcher m = endTagPattern.matcher(tag);
-        if (m.find() && !tag.endsWith("/>")) {
+        if (m.matches() && !tag.endsWith("/>")) {
             return true;
         }
         return false;
@@ -274,7 +278,7 @@ public class XMLValidator extends JFrame {
     public static boolean isEmptyTag(String tag) {
         Pattern emptyTagPattern = Pattern.compile("<(.*?)/>");
         Matcher m = emptyTagPattern.matcher(tag);
-        if (m.find() && !tag.startsWith("</")) {
+        if (m.matches() && !tag.startsWith("</")) {
             return true;
         }
         return false;
@@ -287,7 +291,7 @@ public class XMLValidator extends JFrame {
         String REGEX = "^[a-z0-9_-]{1,}$";
         Pattern pattern = Pattern.compile(REGEX);
         Matcher matcher = pattern.matcher(tagName);
-        if (matcher.matches()){
+        if (matcher.matches() && !tagName.toLowerCase().startsWith("xml") && !Character.isDigit(tagName.charAt(0))){
             return true;
         }
         return false;
@@ -298,7 +302,6 @@ public class XMLValidator extends JFrame {
     }
 
     private boolean isProlog(String line) {
-
         return line.startsWith("<?xml") && line.endsWith("?>");
     }
 }
